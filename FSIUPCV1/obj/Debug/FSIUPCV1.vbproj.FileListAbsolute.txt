@@ -16,3 +16,7 @@ D:\FSXGIT\FSIUPCV1\obj\Debug\FSIUPCV1.vbproj.CopyComplete
 D:\FSXGIT\FSIUPCV1\obj\Debug\FSIUPCV1.exe
 D:\FSXGIT\FSIUPCV1\obj\Debug\FSIUPCV1.xml
 D:\FSXGIT\FSIUPCV1\obj\Debug\FSIUPCV1.pdb
+D:\FSXGIT\FSIUPCV1\bin\Debug\FSIUPCV1.exe.manifest
+D:\FSXGIT\FSIUPCV1\bin\Debug\FSIUPCV1.application
+D:\FSXGIT\FSIUPCV1\obj\Debug\FSIUPCV1.exe.manifest
+D:\FSXGIT\FSIUPCV1\obj\Debug\FSIUPCV1.application

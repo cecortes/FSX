@@ -22,5 +22,34 @@ FSIUPCV1
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="F:FSIUPCV1.ScrMain.airspeed">
+ <summary>
+ Los offsets son variables y como tales se declaran al principio de la clase,
+ pero nunca dentro de métodos.
+ El tipo y tamaño del offset debe dde coincidir al tipo de dato almacenado en el.
+ Para más información del tipo buscar en Basic Concepts de la UserGuide.PDF
+ </summary>
+</member>
+<member name="M:FSIUPCV1.ScrMain.SetConexEdo">
+ <summary>
+ Se encarga de mostrar el estado necesario del texto
+ </summary>
+</member>
+<member name="M:FSIUPCV1.ScrMain.Barra_ValueChanged(System.Object,System.EventArgs)">
+ <summary>
+ Evalúa el valor de la barra para decidir conectar / desconectar
+ Realiza las validaciones necesarias para abrir / cerrar la conexión
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FSIUPCV1.ScrMain.TmrEvent_Tick(System.Object,System.EventArgs)">
+ <summary>
+ Obtiene los datos del FSUIPC por medio de la propiedad Process()
+ Mediante la propiedad Value se accede a los datos del offset
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
 </members>
 </doc>
