@@ -51,5 +51,19 @@ FSIUPCV1
  <param name="sender"></param>
  <param name="e"></param>
 </member>
+<member name="M:FSIUPCV1.ScrMain.SwAvionics_MouseClick(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+ Se encarga de activar o desactivar el piloto automático escribiendo el valor en el offset
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FSIUPCV1.ScrMain.SwPause_MouseClick(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+ Se encarga de poner el juego en pausa escribiendo el valor del offset
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
 </members>
 </doc>
